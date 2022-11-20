@@ -42,6 +42,8 @@ section {
   width: 1163px;
   height: 495px;
   margin-top: 8%;
+  margin-left: 8%;
+  z-index: 3;
 }
 
 .txt_category{
@@ -52,7 +54,70 @@ section {
   font-size: 3rem;
   line-height: 30px;
   color: #fff;
-  margin-left: 175px;
   margin-top: 25px;
   z-index: 1;
+}
+
+.category{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.box{
+  width: 100%;
+}
+
+.box img{
+  width: 240px;
+  height: 230px;
+}
+
+.box .txt1{
+  position: absolute;
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 30px;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.box .txt2{
+  position: absolute;
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 30px;
+  color: #fff;
+  margin-top: 25px;
+  margin-left: 60px;
+}
+
+.box .txt3{
+  position: absolute;
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 30px;
+  color: #fff;
+  margin-top: 25px;
+  margin-left: 60px;
+}
+
+.box .txt4{
+  position: absolute;
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 30px;
+  color: #fff;
+  margin-top: 25px;
+  margin-left: 60px;
 }
