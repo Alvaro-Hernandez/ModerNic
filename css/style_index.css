@@ -93,7 +93,7 @@ i {
 i:hover {
   transition: 0s;
   color: #6e6e6e;
-  text-shadow: 1px 1px 5px #fe9800, 0 0 2em #ff4343, 0 0 0.4em;
+  text-shadow: 1px 1px 5px violet, 0 0 2em #ff4343, 0 0 0.4em;
 }
 
 .box {
