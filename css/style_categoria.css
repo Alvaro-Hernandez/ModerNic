@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body{
+  min-height: 100vh;
+}
+
 section {
   position: relative;
   width: 100%;
@@ -19,13 +23,36 @@ section {
   position: relative;
   background: #fff;
   display: flex;
-  height: 60px;
+  height: 50px;
 }
 
 .imgLogo {
   position: relative;
-  width: 380px;
+  width: 340px;
   height: 50px;
   left: 25px;
-  top: 15px;
+  top: 10px;
+}
+
+.box_category{
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 1163px;
+  height: 495px;
+  margin-top: 8%;
+}
+
+.txt_category{
+  position: absolute;
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 30px;
+  color: #fff;
+  margin-left: 175px;
+  margin-top: 25px;
+  z-index: 1;
 }
