@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #323232;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.box_header {
+  position: relative;
+  background: #fff;
+  display: flex;
+  height: 50px;
+}
+
+.imgLogo {
+  position: relative;
+  width: 340px;
+  height: 50px;
+  left: 25px;
+  top: 10px;
+}
+
+.contenedor {
+  width: 98vw;
+  height: 97vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.encabezado {
+  position: relative;
+  background: white;
+  min-width: 300px;
+  width: 70%;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.categoria {
+  opacity: 0.3;
+  text-align: left;
+}
+
+.pregunta {
+  padding: 10px;
+}
+
+.imagen {
+  object-fit: cover;
+  height: 0px;
+  width: 0px;
+}
+
+.btn {
+  background: white;
+  width: 60%;
+  max-width: 550px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.numero {
+  position: absolute;
+  opacity: 0.3;
+  top: 10px;
+  right: 10px;
+}
+
+.puntaje {
+  padding: 10px;
+  color: white;
+}
