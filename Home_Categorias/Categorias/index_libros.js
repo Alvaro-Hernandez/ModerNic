@@ -3,7 +3,7 @@ let mostrar_pantalla_juego_términado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = true;
 
 window.onload = function () {
-  base_preguntas = readText("base-preguntas-cuentos.json");
+  base_preguntas = readText("base-preguntas-poemas.json");
   interprete_bp = JSON.parse(base_preguntas);
   escogerPreguntaAleatoria();
 };
